@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab694b7f-3d09-4572-9197-59829a805bb4">
+  <producedTypes>
+    <refType typeId="d053e83e-9862-4e35-9cfd-d6beb3e97927" valueTypeId="a641a646-62f4-4be1-8e7e-8bf72746bb57"/>
+    <listType typeId="7049b2d0-928d-47df-adcf-0dec38080989" valueTypeId="5477cd87-0d02-4e2a-a43c-12031d2e88c2"/>
+    <managerType typeId="b4505442-e53a-4353-9bd2-8688c10b0b78" valueTypeId="2573ef8c-4db1-4d53-aeb3-987a0fb80753"/>
+  </producedTypes>
+  <name>ТипЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип задачи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="991b9dd6-0222-43b4-9998-645e2fa19f2a">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c8f7004-571a-481c-95a2-9e6d4d96562b">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fb6a095-ba3d-4a8e-9aea-b095d709e355">
+    <name>Релиз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Релиз</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

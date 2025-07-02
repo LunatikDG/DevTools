@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>CatalogRef.ПапкиФайлов</types>
+    <types>DocumentRef.Задача</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>
 </mdclass:DefinedType>

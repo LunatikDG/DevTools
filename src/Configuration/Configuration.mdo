@@ -59,6 +59,7 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.CRM</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
@@ -746,6 +747,8 @@
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСнятьПометкуУдаленияЗаметок</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСтатусИзмененияПометкиУдаленияПользователя</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ПереопределитьПолучаемуюФормуПрисоединенногоФайла</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИзвлечениеТекста</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаСервисовИнтеграции</scheduledJobs>
@@ -976,6 +979,8 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.ЗадачаПрисоединенныеФайлы</catalogs>
   <documents>Document.Задача</documents>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
@@ -1011,6 +1016,9 @@
   <enums>Enum.ФорматыХраненияМногостраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.СтатусЗадачи</enums>
+  <enums>Enum.ТипЗадачи</enums>
+  <enums>Enum.ПриоритетЗадачи</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>

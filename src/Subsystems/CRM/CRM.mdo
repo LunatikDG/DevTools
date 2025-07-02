@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="807f06ad-3da9-47e6-a320-97e0f90f03a9">
+  <name>CRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.GroupConversation</picture>
+  </picture>
+  <content>Document.Задача</content>
+  <content>Catalog.Проекты</content>
+  <content>Enum.ПриоритетЗадачи</content>
+  <content>Enum.ТипЗадачи</content>
+  <content>Enum.СтатусЗадачи</content>
+</mdclass:Subsystem>
