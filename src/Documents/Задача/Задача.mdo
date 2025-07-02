@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36bf2603-b977-4ebb-8150-c3cc697bdfb3">
+  <producedTypes>
+    <objectType typeId="01be5e89-5e5f-45b5-9871-591292979b8f" valueTypeId="291af43f-55e2-47d5-bbef-0281aab09500"/>
+    <refType typeId="a2cddd52-e7b1-4623-8404-4e456cc80175" valueTypeId="a419f120-471f-4912-aa83-32136687fe1b"/>
+    <selectionType typeId="37dc8023-41d4-4ac4-8cf2-31acc10ef72e" valueTypeId="672c3442-9e03-4730-a662-d27ca2ed7c0c"/>
+    <listType typeId="7945109b-0e55-4963-bf49-b39c15da267b" valueTypeId="514f4e83-79c5-4699-8b29-f07986b696a7"/>
+    <managerType typeId="8e367234-4f34-4017-8899-618f99468cee" valueTypeId="de12c880-e225-4262-a2af-e61c49223b98"/>
+  </producedTypes>
+  <name>Задача</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Задача.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="212ff191-8da7-4e54-b02d-129122894dc6">
+    <name>ОписаниеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание задачи</value>
+    </synonym>
+    <comment>Описание задачи</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="88870365-6a13-4ae7-9538-39f5739022bd">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85dae99b-d1e8-46ac-8367-e59801a7d2e5">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
