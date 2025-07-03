@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ebd3518-31c3-46af-ba99-c35713988ba1">
+  <producedTypes>
+    <refType typeId="54dea8b0-588c-4702-89ca-0685702d0e78" valueTypeId="7497bbc5-a70e-48af-9592-4de30ff56d9e"/>
+    <listType typeId="6db3e59e-32ad-41de-9e6b-e1603bcf480a" valueTypeId="a23bc9ac-c787-47d2-aefd-2aeb8b4d81e3"/>
+    <managerType typeId="505c4b01-ac63-47c7-8395-2daab8507517" valueTypeId="707e7fb4-c547-4b02-b69b-c2870ed57681"/>
+  </producedTypes>
+  <name>СтатусПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус проекта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="141c46e3-e21b-4cb2-bd35-87af5983d61a">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05d9fb59-a6ad-4aaf-a749-625a5589f5e1">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22e3ca01-1eee-4c16-8d5f-657cce063172">
+    <name>Завершён</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершён</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3da17daa-a390-491f-af79-3c1d14a8daf5">
+    <name>Отложен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26218015-5bca-4454-ab43-a5cbad43fb3e">
+    <name>ЕстьРиски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть риски</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dd985bb-0e54-4c4f-b695-9915dd770d53">
+    <name>Заблокирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заблокирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0a36e6c-c7be-44bd-98e8-83bd0f84b3d6">
+    <name>ПоПлану</name>
+    <synonym>
+      <key>ru</key>
+      <value>По плану</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c68ea12d-ce08-477e-b44d-1d4d3343f521">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce6d6195-2fc6-4ef5-b360-e25e36483a83">
+    <name>Отменён</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменён</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

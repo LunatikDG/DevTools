@@ -10,6 +10,7 @@
   </synonym>
   <type>
     <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.ПроектыПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗадачаПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
   </type>

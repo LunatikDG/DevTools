@@ -37,7 +37,7 @@
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>DevTools 1C v. 1.0.1.1 (Инструменты разработчика и администратора баз 1С)</value>
+    <value>DevTools 1C v. 1.0.1.2 (Инструменты разработчика и администратора баз 1С)</value>
   </detailedInformation>
   <copyright>
     <key>ru</key>
@@ -686,6 +686,7 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыDT</commonModules>
+  <commonModules>CommonModule.ЗаполнениеОбъектовDT</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.EnterpriseData_1_10_8</xDTOPackages>
@@ -981,6 +982,7 @@
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
   <catalogs>Catalog.Проекты</catalogs>
   <catalogs>Catalog.ЗадачаПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ПроектыПрисоединенныеФайлы</catalogs>
   <documents>Document.Задача</documents>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
@@ -1019,6 +1021,7 @@
   <enums>Enum.СтатусЗадачи</enums>
   <enums>Enum.ТипЗадачи</enums>
   <enums>Enum.ПриоритетЗадачи</enums>
+  <enums>Enum.СтатусПроекта</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ОбъемНенужныхФайлов</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>

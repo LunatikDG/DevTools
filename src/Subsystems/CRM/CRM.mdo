@@ -15,4 +15,6 @@
   <content>Enum.ПриоритетЗадачи</content>
   <content>Enum.ТипЗадачи</content>
   <content>Enum.СтатусЗадачи</content>
+  <content>Catalog.ПроектыПрисоединенныеФайлы</content>
+  <content>Enum.СтатусПроекта</content>
 </mdclass:Subsystem>

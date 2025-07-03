@@ -7,6 +7,7 @@
   </synonym>
   <source>
     <types>CatalogManager.ЗадачаПрисоединенныеФайлы</types>
+    <types>CatalogManager.ПроектыПрисоединенныеФайлы</types>
   </source>
   <event>FormGetProcessing</event>
   <handler>CommonModule.РаботаСФайламиКлиентСервер.ОпределитьФормуПрисоединенногоФайла</handler>
