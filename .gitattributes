@@ -1,1 +1,4 @@
-src/** linguist-vendored
+*.bsl linguist-language=1C Enterprise
+*.mdo linguist-language=1C Enterprise
+*.form linguist-language=1C Enterprise
+*.dcss linguist-language=1C Enterprise
